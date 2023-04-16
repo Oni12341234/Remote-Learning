@@ -1,0 +1,21 @@
+    1  clear
+    2  yum list installed
+    3  yum list installed | grep curl
+    4  yum list installed | grep -e curl -e wget -e -telnet -e netstat-e nslookup
+    5  yum list installed | grep -e curl -e wget -e -telnet -e netstat -e nslookup
+    6  yum update
+    7  yum -y install curl wget telnet net-tools nslookup
+    8  ssh-keygen
+    9  find / -name milestone_project
+   10  rm milestone_project
+   11  ssh-keygen
+   12  mkdir /etc/ssh_id
+   13  ssh-keygen
+   14  cat /etc/ssh_id/milestone_project.pub
+   15  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5raKtD1bSkzSSUTiXxgl34tdhQOAhi+Nu8gCO6ywyDxJHAOm3baI9/7q68jMu7BEsVPTyInthWKGGtKlY1v3w3nLKmDkQ642r8wzIIN1hFJtKQQB+yHU5wh4DjirGtWhHf2KQt1MvpM+rWme6LAJnVY9GSRdM/ntTXSgUxvdVtpj/2lUQx7gbRqHlQlI5rUmpfKN5oklvJZS5AbCTptLg2LvTXF/04UajFG/HdYR+uBwdWyFJv0RkspnqGgXRVViiAAMbvi1RXmbSW/zmnEIR/bxDQVwRA3jgjfWdsJQzxzFEupPSJoj3El+jZLOop59WBaOsOiuTVinyFHwE9Lg/ root@localhost.localdomain
+   16  ssh root@192.168.1.180
+   17  ssh root@192.168.1.180 -i /etc/ssh_id/milestone_project
+   18  clear
+   19  cat hard.sh
+   20  echo history
+   21  history

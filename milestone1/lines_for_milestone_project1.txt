@@ -1,0 +1,12 @@
+yum -y update # update system
+yum list installed | grep -e curl -e wget -e telnet -e netstat -e nslookup # check if packages are installed
+yum -y install curl wget telnet net-tools nslookup # install said packages
+mkdir folder{1..20}; touch folder{1..20}/file{1..3} #create folders 1-20 and then add file file1,file2,file3 in all directories
+rm folder*[13579]/file2 # remove file2 from odd numbered directories , regex meaning everything ending with 1 3 5 7 or 9
+add counter to files > see counter.sh
+cat /var/log/messages | grep Error | wc -l # how many lines with Error are in /var/log/messages
+Hard version > see hard.sh
+ssh_keygen #generate ssh key , copying it to server in .ssh/authorized_keys
+ssh user@ip -i /path/to/key
+
+

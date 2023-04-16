@@ -1,0 +1,99 @@
+ 1  yum update
+    2  yum -y install curl wget telnet netstat nslookup
+    3  yum -y install net-tools
+    4  mkdir folder{1..20}
+    5  ls
+    6  rmdir folder{1..20}
+    7  mkdir folder {1..20} ; touch file{1..3}/folder{1..20}
+    8  mkdir folder {1..20} ; touch folder{1..20}/file{1..3}
+    9  mkdir folder {1..20} ; touch folder{1..20}/file1
+   10  rmdir folder{1..20}
+   11  clear
+   12  ls
+   13  ls al
+   14  rmdir {1..20}
+   15  ls
+   16  mkdir folder{1..20}; touch folder{1..20}/fisier
+   17  ls folder1
+   18  mkdir folder{1..20}; touch folder{1..20}/fisier{1..2}
+   19  rmdir folder {1..20}
+   20  rmdir folder{1..20}
+   21  rm -rf folder{1..20}
+   22  mkdir folder{1..20}; touch folder{1..20}/fisier{1..2}
+   23  ls folder1
+   24  rm -rf folder{1..20}
+   25  mkdir folder{1..20}; touch folder{1..20}/file{1..3}
+   26  ls folder1
+   27  rm folder*[13579]/file2
+   28  yum -y install nano
+   29  nano script.sh
+   30  cat script.sh
+   31  for COUNTER 1 2 3 4 5 .. 20
+   32  do
+   33          echo $COUNTER > folder$counter/file1
+   34  nano script.sh
+   35  bash script.sh
+   36  cat folder5/file1
+   37  mv script.sh counter.sh
+   38  cat /var/log/messages | grep Error | wc -l
+   39  cat /var/log/messages | grep Error
+   40  cat /var/log/messages | grep Error | wc -l
+   41  nano script2.sh
+   42  bash script2.sh
+   43  nano script2.sh
+   44  bash script2.sh
+   45  nano script2.sh
+   46  bash script2.sh
+   47  nano script2.sh
+   48  bash script2.sh
+   49  nano script2.sh
+   50  bash script2.sh
+   51  nano script2.sh
+   52  bash script2.sh
+   53  nano script2.sh
+   54  bash script2.sh
+   55  nano script2.sh
+   56  cat /var/log/messages
+   57  nano script2.sh
+   58  cat /var/log/messages
+   59  bash script2.sh
+   60  clear
+   61  bash script2.sh time
+   62  time
+   63  clear
+   64  date
+   65  date +"%d-%m-%y"
+   66  date +"%d-%m-%y"+"%T"
+   67  date +"%d-%m-%y"-"%T"
+   68  timedate +"%d-%m-%y"-"%T"
+   69  nano script2.sh
+   70  bash script2.sh
+   71  nano script2.sh
+   72  bash script2.sh
+   73  nano script2.sh
+   74  bash script2.sh
+   75  cat /var/log/messages | grep systemd
+   76  nano script2.sh
+   77  bash script2.sh
+   78  clear
+   79  mv script2.sh hard.sh
+   80  find / -name authorized_keys
+   81  mkdir /etc/ssh_id
+   82  ssh root@192.168.1.184
+   83  clear
+   84  cat ~/.ssh/known_hosts
+   85  nano ~/.ssh/authorized_keys
+   86  ssh root@192.168.1.184
+   87  cat ~/.ssh/known_hosts
+   88  cat ~/.ssh/authorized_keys
+   89  cat /etc/ssh_id/
+   90  ssh-keygen
+   91  cat /etc/ssh_id/milestone_project
+   92  cat /etc/ssh_id/milestone_project.pub
+   93  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRkxWF273ZEk/mKzEYIQkSD2N4prSDU0CJAZEK4tuBrJaQtGm1fx67Ty69/Rj4Ad0o76WyS1ys44EBzvziPGwvohlPbvVcl5+fbhdPSjdIKe742dj8Einl7rQvDSK2qVPAjdJ5dac6BttB8ihjjR7tsYxwd7HRT3b6Cckh2qBWES3rhLxhcmKwCDCR2AnAvm/clJKb4SctRoF+VpAYwKcAwN639OrEFMU95j7beaCXXZ0E3ooqgd67ytABUVrSOHiaAaP1RRQLL0386qEZf+gF9lvzIJOaWvwJgxx22O5FTeLAvhD4GlFH38e0M1DCG5rzYIOFCDpZRZKmzrQ75iSj root@localhost.localdomain
+   94  ssh root@192.168.1.184 -i /etc/ssh_id/milestone_project
+   95  cat ~/.ssh/ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRkxWF273ZEk/mKzEYIQkSD2N4prSDU0CJAZEK4tuBrJaQtGm1fx67Ty69/Rj4Ad0o76WyS1ys44EBzvziPGwvohlPbvVcl5+fbhdPSjdIKe742dj8Einl7rQvDSK2qVPAjdJ5dac6BttB8ihjjR7tsYxwd7HRT3b6Cckh2qBWES3rhLxhcmKwCDCR2AnAvm/clJKb4SctRoF+VpAYwKcAwN639OrEFMU95j7beaCXXZ0E3ooqgd67ytABUVrSOHiaAaP1RRQLL0386qEZf+gF9lvzIJOaWvwJgxx22O5FTeLAvhD4GlFH38e0M1DCG5rzYIOFCDpZRZKmzrQ75iSj root@localhost.localdomain
+   96  cat ~/.ssh/authorized_keys
+   97  ssh root@192.168.1.184
+   98  ssh root@192.168.1.184 -i /etc/ssh_id/milestone_project
+   99  clear
